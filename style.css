@@ -1,0 +1,141 @@
+/* Estilo geral da página 
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.p2{
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    padding: 20px;
+    background-color: #3498db;
+    color: white;
+    margin: 0;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.method {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    color: #3498db;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+strong {
+    color: #e74c3c;
+}*/
+
+/* Estilo geral */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.p2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    padding: 20px;
+    color: white;
+    margin: 0;
+    
+}
+
+/* Container principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap; /* Permite ajuste em telas menores */
+    justify-content: space-between;
+}
+
+/* Cada método ocupa espaço de forma flexível */
+.method {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    flex: 1 1 30%; /* Ajusta para ocupar 30% da largura */
+    margin: 10px;
+    border-radius: 8px;
+    min-width: 280px;
+}
+
+/* Título da página */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 28px;
+    padding: 20px;
+    background-color: #9cbfca;
+    color: white;
+    margin: 0;
+}
+
+/* Título dos métodos */
+h3 {
+    color: #799ca6;
+    font-size: 22px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Melhor destaque para os resultados */
+strong {
+    color: #567882;
+}
+
+/* Código formatado */
+pre {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    overflow-x: auto;
+}
